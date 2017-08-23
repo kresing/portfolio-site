@@ -1,0 +1,165 @@
+.navbar {
+  background: #FDFFFC;
+  vertical-align: middle;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.navbar-header .navbar-brand {
+  color: #3581b8;
+}
+
+.navbar-brand {
+  font-size: 48px;
+  font-family: "Quattrocento", "serif";
+  text-transform: none;
+}
+
+#dropdown {
+  color: rgb(119, 119, 119);
+}
+
+body {
+  background: #FDFFFC;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+}
+
+body h1, h2 {
+  font-size: 36px;
+  color: #2274a5;
+}
+
+body h3 {
+  font-size: 28px;
+  color: #2274a5;
+  font-family: "Muli", sans-serif;
+}
+
+#about {
+  background: #FDFFFC;
+  text-align: justify;
+  padding-top: 90px;
+}
+
+img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+figcaption {
+  padding-bottom: 20px;
+}
+
+#work-summary {
+  background: #ebe9e9;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#work-summary i {
+  color: #fcb07e;
+}
+
+#contact {
+  background: #ebe9e9;
+  padding-bottom: 20px;
+}
+
+#contact ul {
+	overflow: auto;
+}
+
+#contact ul li {
+	list-style-type: none;
+	float: right;
+}
+
+#contact ul li a i {
+	background: #3581b8;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 25px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 15%;
+}
+#contact > div > div > div.col-sm-4 > figure {
+  padding-left: 25%;
+}
+#footer {
+  background: #fcb07e;
+}
+
+#work {
+  padding-top: 85px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .navbar-brand {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+  #about {
+    padding-top: 20%;
+  }
+
+  .navbar-brand {
+    font-size: 24px;
+  }
+
+  .nav, .navbar-header {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .nav li {
+    font-size: .9em;
+    line-height: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #about-me {
+    display: none;
+  }
+  body h1, h2, h3 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #about {
+    padding-top: 35%;
+  }
+
+  .navbar-brand {
+    font-size: 18px;
+  }
+
+  .nav, .navbar-header {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .nav li {
+    font-size: .9em;
+    line-height: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #about-me {
+    display: none;
+  }
+  body h1, h2, h3 {
+    font-size: 20px;
+  }
+}
