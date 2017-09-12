@@ -19,7 +19,10 @@
 #dropdown {
   color: rgb(119, 119, 119);
 }
-
+#skills-header {
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
 body {
   background: #FDFFFC;
   font-family: "Muli", sans-serif;
@@ -43,6 +46,10 @@ body h3 {
   padding-top: 90px;
 }
 
+#skills {
+  padding-bottom: 10px;
+}
+
 img {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -60,6 +67,9 @@ figcaption {
 
 #work-summary i {
   color: #fcb07e;
+}
+#illustrator {
+  padding: 0;
 }
 
 #contact {
@@ -94,8 +104,8 @@ figcaption {
   background: #fcb07e;
 }
 
-#work {
-  padding-top: 85px;
+#portfolio {
+  padding-top: 100px;
 }
 
 @media screen and (min-width: 769px) and (max-width: 991px) {
@@ -127,11 +137,20 @@ figcaption {
     margin-top: 0;
     margin-bottom: 0;
   }
+
+  #logo {
+    height: 200px;
+    width: auto;
+  }
   #about-me {
     display: none;
   }
   body h1, h2, h3 {
     font-size: 24px;
+  }
+
+  #portfolio {
+    padding-top: 155px;
   }
 }
 
@@ -161,5 +180,13 @@ figcaption {
   }
   body h1, h2, h3 {
     font-size: 20px;
+  }
+  #logo {
+    height: 200px;
+    width: auto;
+  }
+
+  #portfolio {
+    padding-top: 185px;
   }
 }
