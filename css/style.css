@@ -138,15 +138,15 @@ figcaption {
     margin-bottom: 0;
   }
 
-  #logo {
-    height: 200px;
-    width: auto;
-  }
   #about-me {
     display: none;
   }
-  body h1, h2, h3 {
+  body h1, h2 {
     font-size: 24px;
+  }
+
+  body h3 {
+    font-size: 20px;
   }
 
   #portfolio {
@@ -178,12 +178,12 @@ figcaption {
   #about-me {
     display: none;
   }
-  body h1, h2, h3 {
+  body h1, h2 {
     font-size: 20px;
   }
-  #logo {
-    height: 200px;
-    width: auto;
+
+  body h3 {
+    font-size: 18px;
   }
 
   #portfolio {
